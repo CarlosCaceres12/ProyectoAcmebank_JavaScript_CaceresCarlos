@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
     await guardarUsuario(usuario);
   });
 
-  // RETIRO
   document.getElementById("formRetiro").addEventListener("submit", async function(e) {
     e.preventDefault();
     const monto = parseFloat(document.getElementById("montoRetirar").value);
